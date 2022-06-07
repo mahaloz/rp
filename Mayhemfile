@@ -2,8 +2,9 @@
 project: rp
 
 # Target name (should be unique within the project)
-target: rp
+target: rp-lin-x64
 
 # List of commands used to test the target
 cmds:
     - cmd: /rp-lin-x64 --file @@
+      sanitizer: true
